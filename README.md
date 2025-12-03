@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# 🔍 GitFind | Buscador de Perfis e Repositórios do GitHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-18.x-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![NPM](https://img.shields.io/badge/NPM-Package_Manager-red)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Descrição do Projeto
 
-### `npm start`
+O **GitFind** é uma aplicação web construída com **ReactJS** que permite aos usuários buscar perfis de desenvolvedores no GitHub por `@username` e visualizar as informações principais do perfil (foto, nome, biografia) e uma lista dos repositórios públicos associados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi desenvolvido como parte do módulo prático do bootcamp da **DIO (Digital Innovation One)**, focado na integração com APIs REST e construção de interfaces modernas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** ReactJS
+- **Estilização:** CSS3
+- **Linguagem:** JavaScript (ES6+)
+- **Gerenciador de Pacotes:** NPM
+- **API Consumida:** GitHub REST API
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🔍 **Busca por Usuário:** Campo de input para buscar perfis do GitHub por nome de usuário
+- 👤 **Exibição de Perfil:** Imagem, nome e biografia do usuário
+- 📦 **Listagem de Repositórios:** Lista de repositórios públicos
+- 🌙 **Layout:** Design escuro
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 💻 Como Rodar o Projeto Localmente
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✅ Pré-requisitos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Certifique-se de ter instalado em sua máquina:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Node.js**
+- **npm** ou **Yarn**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### 1️⃣ Clonar o Repositório
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/rafaelmatias-com-br/git-find.git
+cd git-find
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 2️⃣ Instalar as Dependências
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+# ou
+yarn install
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 3️⃣ Iniciar a Aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+# ou
+yarn start
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- A aplicação será aberta automaticamente no navegador em:
 
-### Deployment
+```bash
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧪 API Utilizada
+
+- **GitHub REST API**
+
+**Endpoint base:**
+
+```bash
+https://api.github.com/users/{username}
+```
+
+---
+
+## 🧑‍💻 Desenvolvedor
+
+**Rafael Matias**  
+GitHub: https://github.com/rafaelmatias-com-br
